@@ -1,16 +1,16 @@
 from email import message
 from flask import Flask, render_template
-from jinja2 import Environment, PackageLoader, select_autoescape
+from flask_bootstrap import Bootstrap
+
 
 app = Flask(__name__)
-env = Environment(
-    loader=PackageLoader("app"),
-    autoescape=select_autoescape()
-)
+Bootstrap(app)
+app.config['TEMPLATES_AUTO_RELOAD'] = True
+
 @app.route('/')
 def root():
-    message = "This is our homepage"
-    return render_template("index.html", msg=message)
+    members = [ 'Connie', 'Lap', 'Josh', 'Katherine']
+    return render_template("index.html", team=members)
 
 @app.route('/about')
 def about():
@@ -18,7 +18,6 @@ def about():
 
 @app.route('/connie-page')
 def login():
-    data = ""
     return render_template("conn.html")
 
 @app.route('/user/<username>')
