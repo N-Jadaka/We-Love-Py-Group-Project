@@ -10,11 +10,10 @@
     <p>To run this project you'll need to install: </p>
     <ul>
         <li>Flask: 
-            <p>To set up flask you'll need to install it via terminal with pip
-            ``` 
-                pip3 install Flask
-            ```
-            </p>
+            <p>To set up flask you'll need to install it via terminal with pip install
+             </p>
+             ``` pip3 install flask
+             ```
         </li>
     </ul>
  </div>
