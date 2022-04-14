@@ -30,4 +30,4 @@ def josh():
 
 @app.route('/katherine', methods=['GET', 'POST'])
 def katherine():
-    return render_template("josh.html")
+    return render_template("kat.html")
