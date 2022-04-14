@@ -16,9 +16,21 @@ def root():
 def about():
     return render_template("about.html")
 
-@app.route('/connie-page')
-def login():
+@app.route('/connie-page', methods=['GET', 'POST'])
+def connie():
     return render_template("conn.html")
+
+@app.route('/lap', methods=['GET', 'POST'])
+def lap():
+    return render_template("lap.html")
+
+@app.route('/josh', methods=['GET', 'POST'])
+def josh():
+    return render_template("josh.html")
+
+@app.route('/katherine', methods=['GET', 'POST'])
+def katherine():
+    return render_template("josh.html")
 
 @app.route('/user/<username>')
 def profile(username):
@@ -27,4 +39,4 @@ def profile(username):
 @app.route('/test')
 # @app.route('/test/<name>')
 def test():
-    return render_template('./index.html')
+    return render_template('./base.html')
