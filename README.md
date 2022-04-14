@@ -9,14 +9,14 @@
     </ol>
     <p>To run this project you'll need to install following dependencies: </p>
     <ul>
-        <li><h5>Flask</h5>: 
+        <li><h3>Flask:</h3> 
             <p>To set up flask you'll need to install it via terminal with pip install
              </p>
         ```
             <br> pip3 install flask 
         ```
         </li>
-        <li><h5>Flask-Bootstrap</h5>
+        <li><h3>Flask-Bootstrap</h3>
             <p>This project also requires Flask-Bootstrap. Run the following command in  your terminal</p>
         ```
             <br>pip install Flask-Bootstrap
@@ -26,7 +26,7 @@
             <br>python -m pip install flask-bootstrap
         ```  
         </li>
-        <li><h5>Run Flask App in Browser:</h5x>
+        <li><h3>Run Flask App in Browser:</h3>
             <p>Run the following commands in your terminal</p>
         ```  
             <br> export FLASK_APP=home_page.py
@@ -34,15 +34,15 @@
             <br> python3 -m flask run 
         ```
         </li>
-        <li> <h5>Jinja2 </h5>
+        <li> <h3>Jinja2 </h3>
             <p>To render your Python code, you'll need to under how to use Jinja2</p>
             <br> <a href="https://jinja.palletsprojects.com/en/3.1.x/nativetypes/#examples" target="_blank">Jinja2 Documentation</a>
         </li>
-        <li><h5>HTML5</h5>
+        <li><h3>HTML5</h3>
             <p>You'll also need to know some HTML 5
             <br> <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="_blank">MDN Docs</a>
         </li>
-        <li><h5>Flask</h5>
+        <li><h3>Flask</h3>
             <p>Some knowledge of Flask will be helpful as you'll need to pass your<br>
             Python data to your page's HTML file.</p>
             <br> <a href="https://flask.palletsprojects.com/en/2.1.x/quickstart/#apis-with-json" target="_blank">Flask Documentation</a>
