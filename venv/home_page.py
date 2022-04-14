@@ -31,12 +31,3 @@ def josh():
 @app.route('/katherine', methods=['GET', 'POST'])
 def katherine():
     return render_template("josh.html")
-
-@app.route('/user/<username>')
-def profile(username):
-    return f'{username}\'s profile'
-
-@app.route('/test')
-# @app.route('/test/<name>')
-def test():
-    return render_template('./base.html')
