@@ -12,27 +12,27 @@
         <li><h3>Flask:</h3> 
             <p>To set up flask you'll need to install it via terminal with pip install
              </p>
-        ```
+        <code>
             <br> pip3 install flask 
-        ```
+        </code>
         </li>
         <li><h3>Flask-Bootstrap</h3>
             <p>This project also requires Flask-Bootstrap. Run the following command in  your terminal</p>
-        ```
+        <code>
             <br>pip install Flask-Bootstrap
-        ```
+        </code>
             <p>Sometimes the command above doesn't work in Python 3 on Mac OS. <br>If it doesn't. Run the following command in your terminal</p>
-        ```
+        <code>
             <br>python -m pip install flask-bootstrap
-        ```  
+        </code>  
         </li>
         <li><h3>Run Flask App in Browser:</h3>
             <p>Run the following commands in your terminal</p>
-        ```  
+        <code>  
             <br> export FLASK_APP=home_page.py
             <br> export FLASK_ENV=development
             <br> python3 -m flask run 
-        ```
+        </code>
         </li>
         <li> <h3>Jinja2 </h3>
             <p>To render your Python code, you'll need to under how to use Jinja2</p>
