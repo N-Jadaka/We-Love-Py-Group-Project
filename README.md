@@ -36,16 +36,16 @@
         </li>
         <li> <h3>Jinja2 </h3>
             <p>To render your Python code, you'll need to under how to use Jinja2</p>
-            <br> <a href="https://jinja.palletsprojects.com/en/3.1.x/nativetypes/#examples" target="_blank">Jinja2 Documentation</a>
+            <a href="https://jinja.palletsprojects.com/en/3.1.x/nativetypes/#examples" target="_blank">Jinja2 Documentation</a>
         </li>
         <li><h3>HTML5</h3>
             <p>You'll also need to know some HTML 5
-            <br> <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="_blank">MDN Docs</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="_blank">MDN Docs</a>
         </li>
         <li><h3>Flask</h3>
             <p>Some knowledge of Flask will be helpful as you'll need to pass your<br>
             Python data to your page's HTML file.</p>
-            <br> <a href="https://flask.palletsprojects.com/en/2.1.x/quickstart/#apis-with-json" target="_blank">Flask Documentation</a>
+            <a href="https://flask.palletsprojects.com/en/2.1.x/quickstart/#apis-with-json" target="_blank">Flask Documentation</a>
         </li>
     </ul>
  </div>
