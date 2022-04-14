@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
 </head>
 <body>
-        <h2>Hello</h2>
+    {% extends 'bootstrap/base.html' %}
+    {% block content %}    
+    <div class="card" style="margin: auto; width: 50%; padding: 10px;">
+        <div class="card-header">
+            <h3>Team Members and Contributions</h3>
+        </div>
+        <ul class="list-group list-group-flush">
+            {% for member in team %}
+                {% if member == 'Connie'%}
+                    <li class="list-group-item"><a href="{{url_for('connie')}}" target="_blank">{{ member }}</a></li>
+
+                {% elif member == 'Lap'%}
+                    <li class="list-group-item"><a href="{{url_for('lap')}}" target="_blank">{{ member }}</a></li>
+                {% elif member == 'Josh'%}
+                    <li class="list-group-item"><a href="{{url_for('josh')}}" target="_blank">{{ member }}</a></li>
+                {% elif member == 'Katherine'%}
+                    <li class="list-group-item"><a href="{{url_for('katherine')}}" target="_blank">{{ member }}</a></li>
+                {% endif %}
+
+            {% endfor %}
+          </ul>
+    </div>
+    {% endblock %}
+
 </body>
 </html>

@@ -1,8 +1,6 @@
-<<<<<<< Updated upstream
 # We-Love-Py-Group-Project
 This is the group project for CSMC-206
-Testt
-=======
+Test
 <h3>Film Scores</h3>
 <div>
     <p>This is the group project for CSMC-206 </p>
@@ -18,4 +16,3 @@ Testt
 
 
 ```
->>>>>>> Stashed changes
