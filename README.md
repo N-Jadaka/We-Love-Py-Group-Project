@@ -11,14 +11,13 @@
     <ul>
         <li>Flask: 
             <p>To set up flask you'll need to install it via terminal with pip
-            ``` pip install Flaskcc
+            ``` 
+                pip3 install Flask
+
             ```
             </p>
         </li>
     </ul>
  </div>
 
-``` 
 
-
-```
