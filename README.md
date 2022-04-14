@@ -29,7 +29,7 @@
         <li><h3>Run Flask App in Browser:</h3>
             <p>Run the following commands in your terminal</p>
         <code>  
-         export FLASK_APP=home_page.py
+         export FLASK_APP=app.py
          </code><br>
         <code> 
             export FLASK_ENV=development
