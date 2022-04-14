@@ -29,9 +29,13 @@
         <li><h3>Run Flask App in Browser:</h3>
             <p>Run the following commands in your terminal</p>
         <code>  
-            <br> export FLASK_APP=home_page.py
-            <br> export FLASK_ENV=development
-            <br> python3 -m flask run 
+         export FLASK_APP=home_page.py
+         </code><br>
+        <code> 
+            export FLASK_ENV=development
+        </code><br>
+        <code>
+            python3 -m flask run 
         </code>
         </li>
         <li> <h3>Jinja2 </h3>
